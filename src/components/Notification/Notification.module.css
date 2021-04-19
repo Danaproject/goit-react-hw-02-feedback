@@ -1,0 +1,8 @@
+.Notification {
+  display: block;
+  margin-top: 20px;
+  padding: 16px;
+  font-size: 20px;
+  background-color: #faf8f5;
+  box-shadow: 0px 1px 2px 1px #d3c7b3;
+}

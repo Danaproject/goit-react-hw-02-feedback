@@ -1,0 +1,25 @@
+.FeedbackOptions {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.button {
+  border: none;
+  border-radius: 5px;
+  padding: 8px 15px;
+  margin-right: 12px;
+  font-family: inherit;
+  font-size: 18px;
+  text-transform: capitalize;
+  cursor: pointer;
+  outline: none;
+  background-color: #ddd6b0;
+  border: 1px solid #b2a587;
+  box-shadow: 1px 2px 6px 1px #b2a587;
+  transition: box-shadow 250ms linear;
+}
+
+.button:active {
+  box-shadow: 2px 5px 6px 1px #b2a587;
+}

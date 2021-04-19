@@ -1,0 +1,13 @@
+.title {
+  display: block;
+  margin: 0px auto;
+  padding: 10px;
+  text-align: center;
+  font-size: 28px;
+  /* color: #3b3932; */
+  color: #5a011d;
+}
+
+.section {
+  display: block;
+}

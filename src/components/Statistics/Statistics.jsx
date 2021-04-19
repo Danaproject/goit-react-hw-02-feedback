@@ -1,11 +1,11 @@
-import FeedbackStats from './FeedbackStats';
+import StatItems from './StatItems';
 import PropTypes from 'prop-types';
 import styles from './Statistics.module.css';
 
 const Statistics = ({ options, total, positivePercentage }) => {
     return (
         <ul className={styles.statistics}>
-            <FeedbackStats options={options} />
+            <StatItems options={options} />
             <li className={styles.value}>Total: {total}</li>
             <li className={styles.value}>Positive feedback: {positivePercentage}%</li>
         </ul>

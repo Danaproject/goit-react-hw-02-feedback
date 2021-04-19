@@ -5,7 +5,6 @@ import Statistics from './components/Statistics';
 import Notification from './components/Notification';
 import Container from './components/Container/Container';
 import Panel from './components/Panel';
-import './styles.module.css';
 
 class App extends Component {
   state = {
